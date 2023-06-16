@@ -1,0 +1,122 @@
+.page {
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    background-color: antiquewhite;
+}
+
+.calculator {
+    background-color: rgb(236, 234, 234);
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    border: 4px solid black;
+    height: 500px;
+    width: 400px;
+}
+
+.buttons {
+    display: flex;
+    flex-direction: column;
+    height: 80%;
+}
+
+#result {
+    border: 2px solid black;
+    height: 30px;
+    display: flex;
+    flex: 1;
+    justify-content: right;
+    font-size: 40px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.result {
+    padding-right: 10px;
+    max-width: 380px;
+    display: flex;
+    flex: 0;
+    flex-wrap: nowrap;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.row-0 {
+    display: flex;
+    flex: 1;
+    width: 100%;
+    border-top: 2px solid black;
+    background-color: black;
+}
+
+.row-1 {
+    display: flex;
+    flex: 1;
+    width: 100%;
+    background-color: black;
+}
+
+.row-2 {
+    display: flex;
+    flex: 1;
+    width: 100%;
+    background-color: black;
+}
+
+.row-3 {
+    display: flex;
+    flex: 1;
+    width: 100%;
+    background-color: black;
+}
+
+.row-4 {
+    display: flex;
+    flex: 1;
+    width: 100%;
+    background-color: black;
+}
+
+.clear, .operator, .number, .dot, .equal, .sign, .percent {
+    display: flex;
+    flex: 1;
+    justify-content: center;
+}
+
+
+.sign, .percent, .clear {
+    background-color: #dfb51e;
+    color: white;
+    font-size: 20px;
+}
+
+.number, .dot, .equal {
+    background-color: gray;
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.equal {
+    background-color: rgb(203, 194, 20);
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.operator {
+    background-color: orange;
+    color: white;
+    font-size: 20px;
+}
+
+button {
+    border: 2px solid black;
+    border-radius: 6px;
+}
